@@ -129,13 +129,6 @@ all-docs-mcp/
 - **Chunk Size**: 1000 characters
 - **Overlap**: 200 characters
 
-### Supported Libraries
-
-- pandas
-- numpy
-- matplotlib
-- Any documentation site
-
 ## 🐛 Troubleshooting
 
 **"No documents found"**: Check if the library name matches the namespace in Pinecone
@@ -174,5 +167,3 @@ python3 populate_db.py --library_name matplotlib --url https://matplotlib.org/st
 # Search through the UI
 streamlit run app.py
 ```
-
-That's it! The system will crawl, index, and make your documentation searchable. 🎉
