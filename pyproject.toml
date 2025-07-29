@@ -1,0 +1,35 @@
+[project]
+name = "all-docs-mcp"
+version = "0.1.0"
+description = "AllDocs MCP Server - Search documentation from any library"
+requires-python = ">=3.11"
+dependencies = [
+    # Web crawling
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    
+    # Vector store and embeddings
+    "langchain-openai>=0.1.0",
+    "pinecone[grpc]>=3.0.0",
+    "openai>=1.0.0",
+    "langchain>=0.1.0",
+    
+    # Web interface
+    "streamlit>=1.28.0",
+    
+    # Environment and utilities
+    "python-decouple>=3.8",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.uv]
+dev-dependencies = []
+
+# Note: MCP server has its own pyproject.toml for deployment 

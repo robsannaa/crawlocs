@@ -1,0 +1,1153 @@
+[17:17:22] 🚀 Starting COMPREHENSIVE crawl for library 'test-filter' at https://matplotlib.org/stable/...
+[17:17:22] 📋 Configuration:
+[17:17:22]    - Target: ALL pages on the domain
+[17:17:22]    - Using crawl4ai deep crawling for maximum coverage
+[17:17:22]    - BFS strategy for systematic, level-by-level crawling
+[17:17:22]    - MAXIMUM coverage with no artificial limits
+[17:17:22]    - Progressive indexing enabled
+[17:17:22] 
+[17:17:22] 🌐 Base domain: matplotlib.org
+[17:17:22] 🕷️ Starting MAXIMUM coverage crawl4ai deep crawl...
+[17:17:22]    📊 Max depth: 20
+[17:17:22]    📊 Max pages: 10000
+[17:17:22]    📊 Word threshold: 50
+[17:17:22] 
+[17:17:22] 🔍 Starting crawl with MAXIMUM coverage settings...
+[17:17:23] 🔄 [1] CRAWLING: https://matplotlib.org/stable/
+[17:17:23]    📊 Depth: 0
+[17:17:23]    ✅ Success: True
+[17:17:23]    📝 Has markdown: True
+[17:17:23]    📏 Markdown length: 8397
+[17:17:23]    🔗 Discovered 2 links
+[17:17:23]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:23]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/#main-content) `Ctrl`+`K` [ ![Matplotlib 3.10.3...
+[17:17:23]    📊 Content analysis:
+[17:17:23]       📏 Total lines: 132
+[17:17:23]       📏 Non-empty lines: 100
+[17:17:23]       🎯 Headers found: 8
+[17:17:23]       📍 Header levels: [3, 3, 4, 4, 4]
+[17:17:23]       📋 Headers:
+[17:17:23]          1. ### Cheatsheets
+[17:17:23]          2. # Matplotlib 3.10.3 documentation[#](https://matplotlib.org/stable/#matplotlib-release-documentation "Link to this heading")
+[17:17:23]          3. ## Install[#](https://matplotlib.org/stable/#install "Link to this heading")
+[17:17:23]          4. ## Learn[#](https://matplotlib.org/stable/#learn "Link to this heading")
+[17:17:23]          5. ## Community[#](https://matplotlib.org/stable/#community "Link to this heading")
+[17:17:23]          6. ## What's new[#](https://matplotlib.org/stable/#what-s-new "Link to this heading")
+[17:17:23]          7. ## Contribute[#](https://matplotlib.org/stable/#contribute "Link to this heading")
+[17:17:23]          8. ## About us[#](https://matplotlib.org/stable/#about-us "Link to this heading")
+[17:17:23]    ✅ Content length: 8397 characters
+[17:17:23]    📝 Title: 
+[17:17:23]    🎯 Processing document for indexing...
+[17:17:23]    🔄 Splitting document into chunks...
+[17:17:23]    📦 Created 9 chunks.
+[17:17:23]    📤 Adding 9 chunks to Pinecone...
+[17:17:25]    ✅ Successfully added chunks to Pinecone.
+[17:17:25]    🎉 Page 1 fully processed and indexed!
+[17:17:25] 
+[17:17:27] 🔄 [2] CRAWLING: https://matplotlib.org/cheatsheets
+[17:17:27]    📊 Depth: 1
+[17:17:27]    ✅ Success: True
+[17:17:27]    📝 Has markdown: True
+[17:17:27]    📏 Markdown length: 3671
+[17:17:27]    🔗 Discovered 2 links
+[17:17:27]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:27]    📄 Preview: [Skip to main content](https://matplotlib.org/cheatsheets/#main-content) `⌘`+`K` [ ![Logo image](htt...
+[17:17:27]    📊 Content analysis:
+[17:17:27]       📏 Total lines: 59
+[17:17:27]       📏 Non-empty lines: 46
+[17:17:27]       🎯 Headers found: 4
+[17:17:27]       📍 Header levels: [3, 4, 4, 4]
+[17:17:27]       📋 Headers:
+[17:17:27]          1. # Matplotlib cheatsheets and handouts[#](https://matplotlib.org/cheatsheets/#matplotlib-cheatsheets-and-handouts "Link to this heading")
+[17:17:27]          2. ## Cheatsheets[#](https://matplotlib.org/cheatsheets/#cheatsheets "Link to this heading")
+[17:17:27]          3. ## Handouts[#](https://matplotlib.org/cheatsheets/#handouts "Link to this heading")
+[17:17:27]          4. ## Contribute[#](https://matplotlib.org/cheatsheets/#contribute "Link to this heading")
+[17:17:27]    ⏭️  Skipping gallery/index page (too many links: 62 links, 154 words)
+[17:17:27] 🔄 [3] CRAWLING: https://discourse.matplotlib.org
+[17:17:27]    📊 Depth: 1
+[17:17:27]    ✅ Success: True
+[17:17:27]    📝 Has markdown: True
+[17:17:27]    📏 Markdown length: 14424
+[17:17:27]    🔗 Discovered 2 links
+[17:17:27]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:27]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/#main-container) [ ![Matplotlib](https://dis...
+[17:17:27]    📊 Content analysis:
+[17:17:27]       📏 Total lines: 152
+[17:17:27]       📏 Non-empty lines: 145
+[17:17:27]       🎯 Headers found: 7
+[17:17:27]       📍 Header levels: [3, 3, 3, 3, 3]
+[17:17:27]       📋 Headers:
+[17:17:27]          1. ###  [ Announcements ](https://discourse.matplotlib.org/c/announce/14)
+[17:17:27]          2. ###  [ Showcase ](https://discourse.matplotlib.org/c/showcase/7)
+[17:17:27]          3. ###  [ Community ](https://discourse.matplotlib.org/c/community/11)
+[17:17:27]          4. ###  [ Development ](https://discourse.matplotlib.org/c/development/12)
+[17:17:27]          5. ###  [ 3rd Party Packages ](https://discourse.matplotlib.org/c/3rdparty/18)
+[17:17:27]          6. ###  [ Site Feedback ](https://discourse.matplotlib.org/c/site-feedback/2)
+[17:17:27]          7. ###  [ Uncategorized ](https://discourse.matplotlib.org/c/uncategorized/1)
+[17:17:27]    ✅ Content length: 14424 characters
+[17:17:27]    📝 Title: Discourse.Matplotlib.Org
+[17:17:27]    🎯 Processing document for indexing...
+[17:17:27]    🔄 Splitting document into chunks...
+[17:17:27]    📦 Created 8 chunks.
+[17:17:27]    📤 Adding 8 chunks to Pinecone...
+[17:17:29]    ✅ Successfully added chunks to Pinecone.
+[17:17:29]    🎉 Page 3 fully processed and indexed!
+[17:17:29] 
+[17:17:29] 🔄 [4] CRAWLING: https://matplotlib.org/mpl-third-party
+[17:17:29]    📊 Depth: 1
+[17:17:29]    ✅ Success: True
+[17:17:29]    📝 Has markdown: True
+[17:17:29]    📏 Markdown length: 69789
+[17:17:29]    🔗 Discovered 2 links
+[17:17:29]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:29]    📄 Preview: [Skip to main content](https://matplotlib.org/thirdpartypackages/#main-content) Back to top `⌘`+`K`...
+[17:17:29]    📊 Content analysis:
+[17:17:29]       📏 Total lines: 198
+[17:17:29]       📏 Non-empty lines: 187
+[17:17:29]       🎯 Headers found: 15
+[17:17:29]       📍 Header levels: [3, 5, 5, 5, 5]
+[17:17:29]       📋 Headers:
+[17:17:29]          1. # Third-party and user-contributed packages[#](https://matplotlib.org/thirdpartypackages/#third-party-and-user-contributed-packages "Link to this heading")
+[17:17:29]          2. ###  Alternative APIs [#](https://matplotlib.org/thirdpartypackages/#alternative-apis "Permalink to this headline")
+[17:17:29]          3. ###  Animations [#](https://matplotlib.org/thirdpartypackages/#animations "Permalink to this headline")
+[17:17:29]          4. ###  Colormaps and styles [#](https://matplotlib.org/thirdpartypackages/#colormaps-and-styles "Permalink to this headline")
+[17:17:29]          5. ###  Development tools with built-in Matplotlib rendering [#](https://matplotlib.org/thirdpartypackages/#development-tools-with-built-in-matplotlib-rendering "Permalink to this headline")
+[17:17:29]          6. ###  Documentation [#](https://matplotlib.org/thirdpartypackages/#documentation "Permalink to this headline")
+[17:17:29]          7. ###  Domain-specific libraries [#](https://matplotlib.org/thirdpartypackages/#domain-specific-libraries "Permalink to this headline")
+[17:17:29]          8. ###  Experimental projects that may be merged upstream eventually [#](https://matplotlib.org/thirdpartypackages/#experimental-projects-that-may-be-merged-upstream-eventually "Permalink to this headline")
+[17:17:29]          9. ###  GUI applications [#](https://matplotlib.org/thirdpartypackages/#gui-applications "Permalink to this headline")
+[17:17:29]          10. ###  Interactivity [#](https://matplotlib.org/thirdpartypackages/#interactivity "Permalink to this headline")
+[17:17:29]          ... and 5 more headers
+[17:17:29]    ⏭️  Skipping gallery/index page (too many links: 1293 links, 3514 words)
+[17:17:29] 🔄 [5] CRAWLING: https://matplotlib.org/stable/install/dependencies.html
+[17:17:29]    📊 Depth: 1
+[17:17:29]    ✅ Success: True
+[17:17:29]    📝 Has markdown: True
+[17:17:29]    📏 Markdown length: 28181
+[17:17:29]    🔗 Discovered 2 links
+[17:17:29]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:29]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/install/dependencies.html#main-content) Back to...
+[17:17:29]    📊 Content analysis:
+[17:17:29]       📏 Total lines: 392
+[17:17:29]       📏 Non-empty lines: 318
+[17:17:29]       🎯 Headers found: 37
+[17:17:29]       📍 Header levels: [3, 4, 5, 5, 6]
+[17:17:29]       📋 Headers:
+[17:17:29]          1. # Dependencies[#](https://matplotlib.org/stable/install/dependencies.html#dependencies "Link to this heading")
+[17:17:29]          2. ## Runtime dependencies[#](https://matplotlib.org/stable/install/dependencies.html#runtime-dependencies "Link to this heading")
+[17:17:29]          3. ### Required[#](https://matplotlib.org/stable/install/dependencies.html#required "Link to this heading")
+[17:17:29]          4. ### Optional[#](https://matplotlib.org/stable/install/dependencies.html#optional "Link to this heading")
+[17:17:29]          5. #### Backends[#](https://matplotlib.org/stable/install/dependencies.html#backends "Link to this heading")
+[17:17:29]          6. #### Animations[#](https://matplotlib.org/stable/install/dependencies.html#animations "Link to this heading")
+[17:17:29]          7. #### Font handling and rendering[#](https://matplotlib.org/stable/install/dependencies.html#font-handling-and-rendering "Link to this heading")
+[17:17:29]          8. ### C libraries[#](https://matplotlib.org/stable/install/dependencies.html#c-libraries "Link to this heading")
+[17:17:29]          9. #### Download during install[#](https://matplotlib.org/stable/install/dependencies.html#download-during-install "Link to this heading")
+[17:17:29]          10. #### Use system libraries[#](https://matplotlib.org/stable/install/dependencies.html#use-system-libraries "Link to this heading")
+[17:17:29]          ... and 27 more headers
+[17:17:29]    ✅ Content length: 28181 characters
+[17:17:29]    📝 Title: Dependencies.Html
+[17:17:29]    🎯 Processing document for indexing...
+[17:17:29]    🔄 Splitting document into chunks...
+[17:17:29]    📦 Created 21 chunks.
+[17:17:29]    📤 Adding 21 chunks to Pinecone...
+[17:17:31]    ✅ Successfully added chunks to Pinecone.
+[17:17:31]    🎉 Page 5 fully processed and indexed!
+[17:17:31] 
+[17:17:31] 🔄 [6] CRAWLING: https://matplotlib.org/stable/api/index.html
+[17:17:31]    📊 Depth: 1
+[17:17:31]    ✅ Success: True
+[17:17:31]    📝 Has markdown: True
+[17:17:31]    📏 Markdown length: 145067
+[17:17:31]    🔗 Discovered 2 links
+[17:17:31]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:31]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/api/index.html#main-content) Back to top `⌘`+`K...
+[17:17:31]    📊 Content analysis:
+[17:17:31]       📏 Total lines: 1230
+[17:17:31]       📏 Non-empty lines: 1204
+[17:17:31]       🎯 Headers found: 3
+[17:17:31]       📍 Header levels: [3, 4, 4]
+[17:17:31]       📋 Headers:
+[17:17:31]          1. # API Reference[#](https://matplotlib.org/stable/api/index.html#api-reference "Link to this heading")
+[17:17:31]          2. ## Matplotlib interfaces[#](https://matplotlib.org/stable/api/index.html#matplotlib-interfaces "Link to this heading")
+[17:17:31]          3. ## Modules[#](https://matplotlib.org/stable/api/index.html#modules "Link to this heading")
+[17:17:31]    ⏭️  Skipping gallery/index page (too many links: 1198 links, 2568 words)
+[17:17:31] 🔄 [7] CRAWLING: https://matplotlib.org/stable
+[17:17:31]    📊 Depth: 1
+[17:17:31]    ✅ Success: True
+[17:17:31]    📝 Has markdown: True
+[17:17:31]    📏 Markdown length: 9396
+[17:17:31]    🔗 Discovered 2 links
+[17:17:31]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:31]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/#main-content) Back to top `⌘`+`K` [ ![Matplotl...
+[17:17:31]    📊 Content analysis:
+[17:17:31]       📏 Total lines: 144
+[17:17:31]       📏 Non-empty lines: 112
+[17:17:31]       🎯 Headers found: 8
+[17:17:31]       📍 Header levels: [3, 3, 4, 4, 4]
+[17:17:31]       📋 Headers:
+[17:17:31]          1. ### Cheatsheets
+[17:17:31]          2. # Matplotlib 3.10.3 documentation[#](https://matplotlib.org/stable/#matplotlib-release-documentation "Link to this heading")
+[17:17:31]          3. ## Install[#](https://matplotlib.org/stable/#install "Link to this heading")
+[17:17:31]          4. ## Learn[#](https://matplotlib.org/stable/#learn "Link to this heading")
+[17:17:31]          5. ## Community[#](https://matplotlib.org/stable/#community "Link to this heading")
+[17:17:31]          6. ## What's new[#](https://matplotlib.org/stable/#what-s-new "Link to this heading")
+[17:17:31]          7. ## Contribute[#](https://matplotlib.org/stable/#contribute "Link to this heading")
+[17:17:31]          8. ## About us[#](https://matplotlib.org/stable/#about-us "Link to this heading")
+[17:17:31]    ✅ Content length: 9396 characters
+[17:17:31]    📝 Title: Stable
+[17:17:31]    🎯 Processing document for indexing...
+[17:17:31]    🔄 Splitting document into chunks...
+[17:17:31]    📦 Created 9 chunks.
+[17:17:31]    📤 Adding 9 chunks to Pinecone...
+[17:17:36]    ✅ Successfully added chunks to Pinecone.
+[17:17:36]    🎉 Page 7 fully processed and indexed!
+[17:17:36] 
+[17:17:36] 🔄 [8] CRAWLING: https://matplotlib.org/stable/gallery/index.html
+[17:17:36]    📊 Depth: 1
+[17:17:36]    ✅ Success: True
+[17:17:36]    📝 Has markdown: True
+[17:17:36]    📏 Markdown length: 196953
+[17:17:36]    🔗 Discovered 2 links
+[17:17:36]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:36]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/gallery/index.html#main-content) Back to top `⌘...
+[17:17:36]    📊 Content analysis:
+[17:17:36]       📏 Total lines: 2183
+[17:17:36]       📏 Non-empty lines: 2165
+[17:17:36]       🎯 Headers found: 26
+[17:17:36]       📍 Header levels: [3, 4, 4, 4, 4]
+[17:17:36]       📋 Headers:
+[17:17:36]          1. # Examples[#](https://matplotlib.org/stable/gallery/index.html#examples "Link to this heading")
+[17:17:36]          2. ## Lines, bars and markers[#](https://matplotlib.org/stable/gallery/index.html#lines-bars-and-markers "Link to this heading")
+[17:17:36]          3. ## Images, contours and fields[#](https://matplotlib.org/stable/gallery/index.html#images-contours-and-fields "Link to this heading")
+[17:17:36]          4. ## Subplots, axes and figures[#](https://matplotlib.org/stable/gallery/index.html#subplots-axes-and-figures "Link to this heading")
+[17:17:36]          5. ## Statistics[#](https://matplotlib.org/stable/gallery/index.html#statistics "Link to this heading")
+[17:17:36]          6. ## Pie and polar charts[#](https://matplotlib.org/stable/gallery/index.html#pie-and-polar-charts "Link to this heading")
+[17:17:36]          7. ## Text, labels and annotations[#](https://matplotlib.org/stable/gallery/index.html#text-labels-and-annotations "Link to this heading")
+[17:17:36]          8. ## Color[#](https://matplotlib.org/stable/gallery/index.html#color "Link to this heading")
+[17:17:36]          9. ## Shapes and collections[#](https://matplotlib.org/stable/gallery/index.html#shapes-and-collections "Link to this heading")
+[17:17:36]          10. ## Style sheets[#](https://matplotlib.org/stable/gallery/index.html#style-sheets "Link to this heading")
+[17:17:36]          ... and 16 more headers
+[17:17:36]    ⏭️  Skipping gallery/index page (too many links: 2174 links, 7045 words)
+[17:17:36] 🔄 [9] CRAWLING: https://matplotlib.org/stable/api/axes_api.html
+[17:17:36]    📊 Depth: 1
+[17:17:36]    ✅ Success: True
+[17:17:36]    📝 Has markdown: True
+[17:17:36]    📏 Markdown length: 102591
+[17:17:36]    🔗 Discovered 2 links
+[17:17:36]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:36]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/api/axes_api.html#main-content) Back to top `⌘`...
+[17:17:36]    📊 Content analysis:
+[17:17:36]       📏 Total lines: 759
+[17:17:36]       📏 Non-empty lines: 665
+[17:17:36]       🎯 Headers found: 35
+[17:17:36]       📍 Header levels: [3, 5, 6, 5, 6]
+[17:17:36]       📋 Headers:
+[17:17:36]          1. #  `matplotlib.axes`[#](https://matplotlib.org/stable/api/axes_api.html#matplotlib-axes "Link to this heading")
+[17:17:36]          2. ##  [The Axes class](https://matplotlib.org/stable/api/axes_api.html#id1)[#](https://matplotlib.org/stable/api/axes_api.html#the-axes-class "Link to this heading")
+[17:17:36]          3. ###  [Attributes](https://matplotlib.org/stable/api/axes_api.html#id2)[#](https://matplotlib.org/stable/api/axes_api.html#attributes "Link to this heading")
+[17:17:36]          4. ##  [Plotting](https://matplotlib.org/stable/api/axes_api.html#id3)[#](https://matplotlib.org/stable/api/axes_api.html#plotting "Link to this heading")
+[17:17:36]          5. ###  [Basic](https://matplotlib.org/stable/api/axes_api.html#id4)[#](https://matplotlib.org/stable/api/axes_api.html#basic "Link to this heading")
+[17:17:36]          6. ###  [Spans](https://matplotlib.org/stable/api/axes_api.html#id5)[#](https://matplotlib.org/stable/api/axes_api.html#spans "Link to this heading")
+[17:17:36]          7. ###  [Spectral](https://matplotlib.org/stable/api/axes_api.html#id6)[#](https://matplotlib.org/stable/api/axes_api.html#spectral "Link to this heading")
+[17:17:36]          8. ###  [Statistics](https://matplotlib.org/stable/api/axes_api.html#id7)[#](https://matplotlib.org/stable/api/axes_api.html#statistics "Link to this heading")
+[17:17:36]          9. ###  [Binned](https://matplotlib.org/stable/api/axes_api.html#id8)[#](https://matplotlib.org/stable/api/axes_api.html#binned "Link to this heading")
+[17:17:36]          10. ###  [Contours](https://matplotlib.org/stable/api/axes_api.html#id9)[#](https://matplotlib.org/stable/api/axes_api.html#contours "Link to this heading")
+[17:17:36]          ... and 25 more headers
+[17:17:36]    ✅ Content length: 102591 characters
+[17:17:36]    📝 Title: Axes_Api.Html
+[17:17:36]    🎯 Processing document for indexing...
+[17:17:36]    🔄 Splitting document into chunks...
+[17:17:36]    📦 Created 34 chunks.
+[17:17:36]    📤 Adding 34 chunks to Pinecone...
+[17:17:39]    ✅ Successfully added chunks to Pinecone.
+[17:17:39]    🎉 Page 9 fully processed and indexed!
+[17:17:39] 
+[17:17:39] 🔄 [10] CRAWLING: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
+[17:17:39]    📊 Depth: 1
+[17:17:39]    ✅ Success: True
+[17:17:39]    📝 Has markdown: True
+[17:17:39]    📏 Markdown length: 239674
+[17:17:39]    🔗 Discovered 2 links
+[17:17:39]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:39]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html#mai...
+[17:17:39]    📊 Content analysis:
+[17:17:39]       📏 Total lines: 2386
+[17:17:39]       📏 Non-empty lines: 2316
+[17:17:39]       🎯 Headers found: 15
+[17:17:39]       📍 Header levels: [3, 1, 1, 1, 1]
+[17:17:39]       📋 Headers:
+[17:17:39]          1. # matplotlib.pyplot.subplots[#](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html#matplotlib-pyplot-subplots "Link to this heading")
+[17:17:39]          2. # using the variable ax for single a Axes
+[17:17:39]          3. # using the variable axs for multiple Axes
+[17:17:39]          4. # using tuple unpacking for multiple Axes
+[17:17:39]          5. # First create some toy data:
+[17:17:39]          6. # Create just a figure and only one subplot
+[17:17:39]          7. # Create two subplots and unpack the output array immediately
+[17:17:39]          8. # Create four polar Axes and access them through the returned array
+[17:17:39]          9. # Share a X axis with each column of subplots
+[17:17:39]          10. # Share a Y axis with each row of subplots
+[17:17:39]          ... and 5 more headers
+[17:17:39]    ⏭️  Skipping gallery/index page (too many links: 2271 links, 5928 words)
+[17:17:39] 🔄 [11] CRAWLING: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot_mosaic.html
+[17:17:39]    📊 Depth: 1
+[17:17:39]    ✅ Success: True
+[17:17:39]    📝 Has markdown: True
+[17:17:39]    📏 Markdown length: 147482
+[17:17:39]    🔗 Discovered 2 links
+[17:17:39]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:39]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot_mosaic.ht...
+[17:17:39]    📊 Content analysis:
+[17:17:39]       📏 Total lines: 1255
+[17:17:39]       📏 Non-empty lines: 1205
+[17:17:39]       🎯 Headers found: 2
+[17:17:39]       📍 Header levels: [3, 4]
+[17:17:39]       📋 Headers:
+[17:17:39]          1. # matplotlib.pyplot.subplot_mosaic[#](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot_mosaic.html#matplotlib-pyplot-subplot-mosaic "Link to this heading")
+[17:17:39]          2. ## Examples using `matplotlib.pyplot.subplot_mosaic`[#](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot_mosaic.html#examples-using-matplotlib-pyplot-subplot-mosaic "Link to this heading")
+[17:17:39]    ⏭️  Skipping gallery/index page (too many links: 1187 links, 3009 words)
+[17:17:39] 🔄 [12] CRAWLING: https://matplotlib.org/stable/install/index.html
+[17:17:39]    📊 Depth: 1
+[17:17:39]    ✅ Success: True
+[17:17:39]    📝 Has markdown: True
+[17:17:39]    📏 Markdown length: 26661
+[17:17:39]    🔗 Discovered 2 links
+[17:17:39]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:39]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/install/index.html#main-content) Back to top `⌘...
+[17:17:39]    📊 Content analysis:
+[17:17:39]       📏 Total lines: 333
+[17:17:39]       📏 Non-empty lines: 272
+[17:17:39]       🎯 Headers found: 22
+[17:17:39]       📍 Header levels: [3, 4, 4, 5, 5]
+[17:17:39]       📋 Headers:
+[17:17:39]          1. # Installation[#](https://matplotlib.org/stable/install/index.html#installation "Link to this heading")
+[17:17:39]          2. ## Install an official release[#](https://matplotlib.org/stable/install/index.html#install-an-official-release "Link to this heading")
+[17:17:39]          3. ## Third-party distributions[#](https://matplotlib.org/stable/install/index.html#third-party-distributions "Link to this heading")
+[17:17:39]          4. ### Conda packages[#](https://matplotlib.org/stable/install/index.html#conda-packages "Link to this heading")
+[17:17:39]          5. ### Python distributions[#](https://matplotlib.org/stable/install/index.html#python-distributions "Link to this heading")
+[17:17:39]          6. ### Linux package manager[#](https://matplotlib.org/stable/install/index.html#linux-package-manager "Link to this heading")
+[17:17:39]          7. ## Install a nightly build[#](https://matplotlib.org/stable/install/index.html#install-a-nightly-build "Link to this heading")
+[17:17:39]          8. ## Install from source[#](https://matplotlib.org/stable/install/index.html#id1 "Link to this heading")
+[17:17:39]          9. ## Configure build and behavior defaults[#](https://matplotlib.org/stable/install/index.html#configure-build-and-behavior-defaults "Link to this heading")
+[17:17:39]          10. ## Dependencies[#](https://matplotlib.org/stable/install/index.html#dependencies "Link to this heading")
+[17:17:39]          ... and 12 more headers
+[17:17:39]    ⏭️  Skipping gallery/index page (URL pattern match)
+[17:17:39] 🔄 [13] CRAWLING: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html
+[17:17:39]    📊 Depth: 1
+[17:17:39]    ✅ Success: True
+[17:17:39]    📝 Has markdown: True
+[17:17:39]    📏 Markdown length: 186883
+[17:17:39]    🔗 Discovered 2 links
+[17:17:39]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:39]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html#main-...
+[17:17:39]    📊 Content analysis:
+[17:17:39]       📏 Total lines: 1691
+[17:17:39]       📏 Non-empty lines: 1643
+[17:17:39]       🎯 Headers found: 2
+[17:17:39]       📍 Header levels: [3, 4]
+[17:17:39]       📋 Headers:
+[17:17:39]          1. # matplotlib.pyplot.figure[#](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html#matplotlib-pyplot-figure "Link to this heading")
+[17:17:39]          2. ## Examples using `matplotlib.pyplot.figure`[#](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html#examples-using-matplotlib-pyplot-figure "Link to this heading")
+[17:17:39]    ⏭️  Skipping gallery/index page (too many links: 1655 links, 4183 words)
+[17:17:39] 🔄 [14] CRAWLING: https://matplotlib.org/stable/devel/index.html
+[17:17:39]    📊 Depth: 1
+[17:17:39]    ✅ Success: True
+[17:17:39]    📝 Has markdown: True
+[17:17:39]    📏 Markdown length: 13829
+[17:17:39]    🔗 Discovered 2 links
+[17:17:39]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:39]    📄 Preview: [Skip to main content](https://matplotlib.org/devdocs/devel/index.html#main-content) Back to top `⌘`...
+[17:17:39]    📊 Content analysis:
+[17:17:39]       📏 Total lines: 189
+[17:17:39]       📏 Non-empty lines: 143
+[17:17:39]       🎯 Headers found: 5
+[17:17:39]       📍 Header levels: [3, 4, 4, 4, 4]
+[17:17:39]       📋 Headers:
+[17:17:39]          1. # Contribute[#](https://matplotlib.org/devdocs/devel/index.html#contribute "Link to this heading")
+[17:17:39]          2. ## GitHub issue tracker[#](https://matplotlib.org/devdocs/devel/index.html#github-issue-tracker "Link to this heading")
+[17:17:39]          3. ## Contributing guide[#](https://matplotlib.org/devdocs/devel/index.html#contributing-guide "Link to this heading")
+[17:17:39]          4. ## Development workflow[#](https://matplotlib.org/devdocs/devel/index.html#development-workflow "Link to this heading")
+[17:17:39]          5. ## Policies and guidelines[#](https://matplotlib.org/devdocs/devel/index.html#policies-and-guidelines "Link to this heading")
+[17:17:39]    ⏭️  Skipping gallery/index page (URL pattern match)
+[17:17:39] 🔄 [15] CRAWLING: https://matplotlib.org/stable/api/figure_api.html
+[17:17:39]    📊 Depth: 1
+[17:17:39]    ✅ Success: True
+[17:17:39]    📝 Has markdown: True
+[17:17:39]    📏 Markdown length: 191184
+[17:17:39]    🔗 Discovered 2 links
+[17:17:39]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:39]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/api/figure_api.html#main-content) Back to top `...
+[17:17:39]    📊 Content analysis:
+[17:17:39]       📏 Total lines: 2117
+[17:17:39]       📏 Non-empty lines: 1407
+[17:17:39]       🎯 Headers found: 32
+[17:17:39]       📍 Header levels: [3, 4, 5, 5, 5]
+[17:17:39]       📋 Headers:
+[17:17:39]          1. #  `matplotlib.figure`[#](https://matplotlib.org/stable/api/figure_api.html#module-matplotlib.figure "Link to this heading")
+[17:17:39]          2. ## Figure[#](https://matplotlib.org/stable/api/figure_api.html#figure "Link to this heading")
+[17:17:39]          3. ### Figure class[#](https://matplotlib.org/stable/api/figure_api.html#figure-class "Link to this heading")
+[17:17:39]          4. ### Adding Axes and SubFigures[#](https://matplotlib.org/stable/api/figure_api.html#adding-axes-and-subfigures "Link to this heading")
+[17:17:39]          5. ### Saving[#](https://matplotlib.org/stable/api/figure_api.html#saving "Link to this heading")
+[17:17:39]          6. ### Annotating[#](https://matplotlib.org/stable/api/figure_api.html#annotating "Link to this heading")
+[17:17:39]          7. ### Figure geometry[#](https://matplotlib.org/stable/api/figure_api.html#figure-geometry "Link to this heading")
+[17:17:39]          8. ### Subplot layout[#](https://matplotlib.org/stable/api/figure_api.html#subplot-layout "Link to this heading")
+[17:17:39]          9. #### Discouraged or deprecated[#](https://matplotlib.org/stable/api/figure_api.html#discouraged-or-deprecated "Link to this heading")
+[17:17:39]          10. ### Interactive[#](https://matplotlib.org/stable/api/figure_api.html#interactive "Link to this heading")
+[17:17:39]          ... and 22 more headers
+[17:17:39]    ✅ Content length: 191184 characters
+[17:17:39]    📝 Title: Figure_Api.Html
+[17:17:39]    🎯 Processing document for indexing...
+[17:17:39]    🔄 Splitting document into chunks...
+[17:17:39]    📦 Created 22 chunks.
+[17:17:39]    📤 Adding 22 chunks to Pinecone...
+[17:17:42]    ✅ Successfully added chunks to Pinecone.
+[17:17:42]    🎉 Page 15 fully processed and indexed!
+[17:17:42] 
+[17:17:42] 🔄 [16] CRAWLING: https://matplotlib.org/stable/plot_types/index.html
+[17:17:42]    📊 Depth: 1
+[17:17:42]    ✅ Success: True
+[17:17:42]    📝 Has markdown: True
+[17:17:42]    📏 Markdown length: 17618
+[17:17:42]    🔗 Discovered 2 links
+[17:17:42]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:42]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/plot_types/index.html#main-content) Back to top...
+[17:17:42]    📊 Content analysis:
+[17:17:42]       📏 Total lines: 230
+[17:17:42]       📏 Non-empty lines: 212
+[17:17:42]       🎯 Headers found: 6
+[17:17:42]       📍 Header levels: [3, 4, 4, 4, 4]
+[17:17:42]       📋 Headers:
+[17:17:42]          1. # Plot types[#](https://matplotlib.org/stable/plot_types/index.html#plot-types "Link to this heading")
+[17:17:42]          2. ## Pairwise data[#](https://matplotlib.org/stable/plot_types/index.html#pairwise-data "Link to this heading")
+[17:17:42]          3. ## Statistical distributions[#](https://matplotlib.org/stable/plot_types/index.html#statistical-distributions "Link to this heading")
+[17:17:42]          4. ## Gridded data[#](https://matplotlib.org/stable/plot_types/index.html#gridded-data "Link to this heading")
+[17:17:42]          5. ## Irregularly gridded data[#](https://matplotlib.org/stable/plot_types/index.html#irregularly-gridded-data "Link to this heading")
+[17:17:42]          6. ## 3D and volumetric data[#](https://matplotlib.org/stable/plot_types/index.html#d-and-volumetric-data "Link to this heading")
+[17:17:42]    ⏭️  Skipping gallery/index page (too many links: 226 links, 712 words)
+[17:17:43] 🔄 [17] CRAWLING: https://matplotlib.org/stable/project/citing.html
+[17:17:43]    📊 Depth: 1
+[17:17:43]    ✅ Success: True
+[17:17:43]    📝 Has markdown: True
+[17:17:43]    📏 Markdown length: 14231
+[17:17:43]    🔗 Discovered 2 links
+[17:17:43]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:43]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/project/citing.html#main-content) Back to top `...
+[17:17:43]    📊 Content analysis:
+[17:17:43]       📏 Total lines: 285
+[17:17:43]       📏 Non-empty lines: 201
+[17:17:43]       🎯 Headers found: 3
+[17:17:43]       📍 Header levels: [3, 4, 5]
+[17:17:43]       📋 Headers:
+[17:17:43]          1. # Citing Matplotlib[#](https://matplotlib.org/stable/project/citing.html#citing-matplotlib "Link to this heading")
+[17:17:43]          2. ## DOIs[#](https://matplotlib.org/stable/project/citing.html#dois "Link to this heading")
+[17:17:43]          3. ### By version[#](https://matplotlib.org/stable/project/citing.html#by-version "Link to this heading")
+[17:17:43]    ⏭️  Skipping gallery/index page (too many links: 263 links, 493 words)
+[17:17:46] 🔄 [18] CRAWLING: https://matplotlib.org/stable/tutorials/index.html
+[17:17:46]    📊 Depth: 1
+[17:17:46]    ✅ Success: True
+[17:17:46]    📝 Has markdown: True
+[17:17:46]    📏 Markdown length: 8849
+[17:17:46]    🔗 Discovered 2 links
+[17:17:46]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:46]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/tutorials/index.html#main-content) Back to top...
+[17:17:46]    📊 Content analysis:
+[17:17:46]       📏 Total lines: 115
+[17:17:46]       📏 Non-empty lines: 91
+[17:17:46]       🎯 Headers found: 8
+[17:17:46]       📍 Header levels: [3, 4, 5, 5, 5]
+[17:17:46]       📋 Headers:
+[17:17:46]          1. # Tutorials[#](https://matplotlib.org/stable/tutorials/index.html#tutorials "Link to this heading")
+[17:17:46]          2. ## User guide tutorials[#](https://matplotlib.org/stable/tutorials/index.html#user-guide-tutorials "Link to this heading")
+[17:17:46]          3. ### Introductory[#](https://matplotlib.org/stable/tutorials/index.html#introductory "Link to this heading")
+[17:17:46]          4. ### Intermediate[#](https://matplotlib.org/stable/tutorials/index.html#intermediate "Link to this heading")
+[17:17:46]          5. ### Advanced[#](https://matplotlib.org/stable/tutorials/index.html#advanced "Link to this heading")
+[17:17:46]          6. ### Colors[#](https://matplotlib.org/stable/tutorials/index.html#colors "Link to this heading")
+[17:17:46]          7. ### Text[#](https://matplotlib.org/stable/tutorials/index.html#text "Link to this heading")
+[17:17:46]          8. ### Toolkits[#](https://matplotlib.org/stable/tutorials/index.html#toolkits "Link to this heading")
+[17:17:46]    ⏭️  Skipping gallery/index page (URL pattern match)
+[17:17:46] 🔄 [19] CRAWLING: https://matplotlib.org/stable/users/faq.html
+[17:17:46]    📊 Depth: 1
+[17:17:46]    ✅ Success: True
+[17:17:46]    📝 Has markdown: True
+[17:17:46]    📏 Markdown length: 29373
+[17:17:46]    🔗 Discovered 2 links
+[17:17:46]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:46]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/users/faq.html#main-content) Back to top `⌘`+`K...
+[17:17:46]    📊 Content analysis:
+[17:17:46]       📏 Total lines: 337
+[17:17:46]       📏 Non-empty lines: 272
+[17:17:46]       🎯 Headers found: 17
+[17:17:46]       📍 Header levels: [3, 4, 4, 4, 4]
+[17:17:46]       📋 Headers:
+[17:17:46]          1. # Frequently Asked Questions[#](https://matplotlib.org/stable/users/faq.html#frequently-asked-questions "Link to this heading")
+[17:17:46]          2. ## I don't see a figure window[#](https://matplotlib.org/stable/users/faq.html#i-don-t-see-a-figure-window "Link to this heading")
+[17:17:46]          3. ## Why do I have so many ticks, and/or why are they out of order?[#](https://matplotlib.org/stable/users/faq.html#why-do-i-have-so-many-ticks-and-or-why-are-they-out-of-order "Link to this heading")
+[17:17:46]          4. ## Determine the extent of Artists in the Figure[#](https://matplotlib.org/stable/users/faq.html#determine-the-extent-of-artists-in-the-figure "Link to this heading")
+[17:17:46]          5. ## Check whether a figure is empty[#](https://matplotlib.org/stable/users/faq.html#check-whether-a-figure-is-empty "Link to this heading")
+[17:17:46]          6. ## Find all objects in a figure of a certain type[#](https://matplotlib.org/stable/users/faq.html#find-all-objects-in-a-figure-of-a-certain-type "Link to this heading")
+[17:17:46]          7. ## Prevent ticklabels from having an offset[#](https://matplotlib.org/stable/users/faq.html#prevent-ticklabels-from-having-an-offset "Link to this heading")
+[17:17:46]          8. ## Save transparent figures[#](https://matplotlib.org/stable/users/faq.html#save-transparent-figures "Link to this heading")
+[17:17:46]          9. ## Save multiple plots to one pdf file[#](https://matplotlib.org/stable/users/faq.html#save-multiple-plots-to-one-pdf-file "Link to this heading")
+[17:17:46]          10. ## Make room for tick labels[#](https://matplotlib.org/stable/users/faq.html#make-room-for-tick-labels "Link to this heading")
+[17:17:46]          ... and 7 more headers
+[17:17:46]    ✅ Content length: 29373 characters
+[17:17:46]    📝 Title: Faq.Html
+[17:17:46]    🎯 Processing document for indexing...
+[17:17:46]    🔄 Splitting document into chunks...
+[17:17:46]    📦 Created 17 chunks.
+[17:17:46]    📤 Adding 17 chunks to Pinecone...
+[17:17:48]    ✅ Successfully added chunks to Pinecone.
+[17:17:48]    🎉 Page 19 fully processed and indexed!
+[17:17:48] 
+[17:17:48] 🔄 [20] CRAWLING: https://matplotlib.org/stable/project/mission.html
+[17:17:48]    📊 Depth: 1
+[17:17:48]    ✅ Success: True
+[17:17:48]    📝 Has markdown: True
+[17:17:48]    📏 Markdown length: 4963
+[17:17:48]    🔗 Discovered 2 links
+[17:17:48]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:48]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/project/mission.html#main-content) Back to top...
+[17:17:48]    📊 Content analysis:
+[17:17:48]       📏 Total lines: 72
+[17:17:48]       📏 Non-empty lines: 54
+[17:17:48]       🎯 Headers found: 1
+[17:17:48]       📍 Header levels: [3]
+[17:17:48]       📋 Headers:
+[17:17:48]          1. # Mission Statement[#](https://matplotlib.org/stable/project/mission.html#mission-statement "Link to this heading")
+[17:17:48]    ✅ Content length: 4963 characters
+[17:17:48]    📝 Title: Mission.Html
+[17:17:48]    🎯 Processing document for indexing...
+[17:17:48]    🔄 Splitting document into chunks...
+[17:17:48]    📦 Created 2 chunks.
+[17:17:48]    📤 Adding 2 chunks to Pinecone...
+[17:17:49]    ✅ Successfully added chunks to Pinecone.
+[17:17:49]    🎉 Page 20 fully processed and indexed!
+[17:17:49] 
+[17:17:49] 📊 PROGRESS UPDATE - Page 20:
+[17:17:49]    ✅ Processed: 8 pages
+[17:17:49]    ❌ Failed: 0 pages
+[17:17:49]    📦 Total chunks: 122
+[17:17:49]    🎯 Success rate: 40.0%
+[17:17:49] 
+[17:17:49] 🔄 [21] CRAWLING: https://matplotlib.org/stable/project/index.html
+[17:17:49]    📊 Depth: 1
+[17:17:49]    ✅ Success: True
+[17:17:49]    📝 Has markdown: True
+[17:17:49]    📏 Markdown length: 5341
+[17:17:49]    🔗 Discovered 2 links
+[17:17:49]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:50]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/project/index.html#main-content) Back to top `⌘...
+[17:17:50]    📊 Content analysis:
+[17:17:50]       📏 Total lines: 79
+[17:17:50]       📏 Non-empty lines: 61
+[17:17:50]       🎯 Headers found: 1
+[17:17:50]       📍 Header levels: [3]
+[17:17:50]       📋 Headers:
+[17:17:50]          1. # Project information[#](https://matplotlib.org/stable/project/index.html#project-information "Link to this heading")
+[17:17:50]    ⏭️  Skipping gallery/index page (too many links: 75 links, 197 words)
+[17:17:50] 🔄 [22] CRAWLING: https://matplotlib.org/stable/project/history.html
+[17:17:50]    📊 Depth: 1
+[17:17:50]    ✅ Success: True
+[17:17:50]    📝 Has markdown: True
+[17:17:50]    📏 Markdown length: 8546
+[17:17:50]    🔗 Discovered 2 links
+[17:17:50]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:50]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/project/history.html#main-content) `Ctrl`+`K` [...
+[17:17:50]    📊 Content analysis:
+[17:17:50]       📏 Total lines: 81
+[17:17:50]       📏 Non-empty lines: 63
+[17:17:50]       🎯 Headers found: 1
+[17:17:50]       📍 Header levels: [3]
+[17:17:50]       📋 Headers:
+[17:17:50]          1. # History[#](https://matplotlib.org/stable/project/history.html#history "Link to this heading")
+[17:17:50]    ✅ Content length: 8546 characters
+[17:17:50]    📝 Title: History.Html
+[17:17:50]    🎯 Processing document for indexing...
+[17:17:50]    🔄 Splitting document into chunks...
+[17:17:50]    📦 Created 2 chunks.
+[17:17:50]    📤 Adding 2 chunks to Pinecone...
+[17:17:51]    ✅ Successfully added chunks to Pinecone.
+[17:17:51]    🎉 Page 22 fully processed and indexed!
+[17:17:51] 
+[17:17:51] 🔄 [23] CRAWLING: https://matplotlib.org/stable/users/index.html
+[17:17:51]    📊 Depth: 1
+[17:17:51]    ✅ Success: True
+[17:17:51]    📝 Has markdown: True
+[17:17:51]    📏 Markdown length: 15770
+[17:17:51]    🔗 Discovered 2 links
+[17:17:51]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:51]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/users/index.html#main-content) Back to top `⌘`+...
+[17:17:51]    📊 Content analysis:
+[17:17:51]       📏 Total lines: 216
+[17:17:51]       📏 Non-empty lines: 160
+[17:17:51]       🎯 Headers found: 1
+[17:17:51]       📍 Header levels: [3]
+[17:17:51]       📋 Headers:
+[17:17:51]          1. # Using Matplotlib[#](https://matplotlib.org/stable/users/index.html#using-matplotlib "Link to this heading")
+[17:17:51]    ⏭️  Skipping gallery/index page (URL pattern match)
+[17:17:51] 🔄 [24] CRAWLING: https://matplotlib.org/stable/project/code_of_conduct.html
+[17:17:51]    📊 Depth: 1
+[17:17:51]    ✅ Success: True
+[17:17:51]    📝 Has markdown: True
+[17:17:51]    📏 Markdown length: 11904
+[17:17:51]    🔗 Discovered 2 links
+[17:17:51]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:51]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/project/code_of_conduct.html#main-content) Back...
+[17:17:51]    📊 Content analysis:
+[17:17:51]       📏 Total lines: 121
+[17:17:51]       📏 Non-empty lines: 99
+[17:17:51]       🎯 Headers found: 12
+[17:17:51]       📍 Header levels: [3, 4, 4, 4, 4]
+[17:17:51]       📋 Headers:
+[17:17:51]          1. # Contributor Covenant Code of Conduct[#](https://matplotlib.org/stable/project/code_of_conduct.html#contributor-covenant-code-of-conduct "Link to this heading")
+[17:17:51]          2. ## Our Pledge[#](https://matplotlib.org/stable/project/code_of_conduct.html#our-pledge "Link to this heading")
+[17:17:51]          3. ## Our Standards[#](https://matplotlib.org/stable/project/code_of_conduct.html#our-standards "Link to this heading")
+[17:17:51]          4. ## Enforcement Responsibilities[#](https://matplotlib.org/stable/project/code_of_conduct.html#enforcement-responsibilities "Link to this heading")
+[17:17:51]          5. ## Scope[#](https://matplotlib.org/stable/project/code_of_conduct.html#scope "Link to this heading")
+[17:17:51]          6. ## Enforcement[#](https://matplotlib.org/stable/project/code_of_conduct.html#enforcement "Link to this heading")
+[17:17:51]          7. ## Enforcement Guidelines[#](https://matplotlib.org/stable/project/code_of_conduct.html#enforcement-guidelines "Link to this heading")
+[17:17:51]          8. ### 1. Correction[#](https://matplotlib.org/stable/project/code_of_conduct.html#correction "Link to this heading")
+[17:17:51]          9. ### 2. Warning[#](https://matplotlib.org/stable/project/code_of_conduct.html#warning "Link to this heading")
+[17:17:51]          10. ### 3. Temporary Ban[#](https://matplotlib.org/stable/project/code_of_conduct.html#temporary-ban "Link to this heading")
+[17:17:51]          ... and 2 more headers
+[17:17:51]    ✅ Content length: 11904 characters
+[17:17:51]    📝 Title: Code_Of_Conduct.Html
+[17:17:51]    🎯 Processing document for indexing...
+[17:17:51]    🔄 Splitting document into chunks...
+[17:17:51]    📦 Created 12 chunks.
+[17:17:51]    📤 Adding 12 chunks to Pinecone...
+[17:17:53]    ✅ Successfully added chunks to Pinecone.
+[17:17:53]    🎉 Page 24 fully processed and indexed!
+[17:17:53] 
+[17:17:53] 🔄 [25] CRAWLING: https://matplotlib.org/stable/users/resources/index.html
+[17:17:53]    📊 Depth: 1
+[17:17:53]    ✅ Success: True
+[17:17:53]    📝 Has markdown: True
+[17:17:53]    📏 Markdown length: 6820
+[17:17:53]    🔗 Discovered 2 links
+[17:17:53]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:53]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/users/resources/index.html#main-content) Back t...
+[17:17:53]    📊 Content analysis:
+[17:17:53]       📏 Total lines: 90
+[17:17:53]       📏 Non-empty lines: 66
+[17:17:53]       🎯 Headers found: 5
+[17:17:53]       📍 Header levels: [3, 4, 4, 4, 4]
+[17:17:53]       📋 Headers:
+[17:17:53]          1. # External resources[#](https://matplotlib.org/stable/users/resources/index.html#external-resources "Link to this heading")
+[17:17:53]          2. ## Books, chapters and articles[#](https://matplotlib.org/stable/users/resources/index.html#books-chapters-and-articles "Link to this heading")
+[17:17:53]          3. ## Videos[#](https://matplotlib.org/stable/users/resources/index.html#videos "Link to this heading")
+[17:17:53]          4. ## Tutorials[#](https://matplotlib.org/stable/users/resources/index.html#tutorials "Link to this heading")
+[17:17:53]          5. ## Galleries[#](https://matplotlib.org/stable/users/resources/index.html#galleries "Link to this heading")
+[17:17:53]    ⏭️  Skipping gallery/index page (URL pattern match)
+[17:17:53] 🔄 [26] CRAWLING: https://matplotlib.org/stable/users/release_notes.html
+[17:17:53]    📊 Depth: 1
+[17:17:53]    ✅ Success: True
+[17:17:53]    📝 Has markdown: True
+[17:17:53]    📏 Markdown length: 22622
+[17:17:53]    🔗 Discovered 2 links
+[17:17:53]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:53]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/users/release_notes.html#main-content) Back to...
+[17:17:53]    📊 Content analysis:
+[17:17:53]       📏 Total lines: 271
+[17:17:53]       📏 Non-empty lines: 213
+[17:17:53]       🎯 Headers found: 22
+[17:17:53]       📍 Header levels: [3, 4, 4, 4, 4]
+[17:17:53]       📋 Headers:
+[17:17:53]          1. # Release notes[#](https://matplotlib.org/stable/users/release_notes.html#release-notes "Link to this heading")
+[17:17:53]          2. ## Version 3.10[#](https://matplotlib.org/stable/users/release_notes.html#version-3-10 "Link to this heading")
+[17:17:53]          3. ## Version 3.9[#](https://matplotlib.org/stable/users/release_notes.html#version-3-9 "Link to this heading")
+[17:17:53]          4. ## Version 3.8[#](https://matplotlib.org/stable/users/release_notes.html#version-3-8 "Link to this heading")
+[17:17:53]          5. ## Version 3.7[#](https://matplotlib.org/stable/users/release_notes.html#version-3-7 "Link to this heading")
+[17:17:53]          6. ## Version 3.6[#](https://matplotlib.org/stable/users/release_notes.html#version-3-6 "Link to this heading")
+[17:17:53]          7. ## Version 3.5[#](https://matplotlib.org/stable/users/release_notes.html#version-3-5 "Link to this heading")
+[17:17:53]          8. ## Version 3.4[#](https://matplotlib.org/stable/users/release_notes.html#version-3-4 "Link to this heading")
+[17:17:53]          9. ## Version 3.3[#](https://matplotlib.org/stable/users/release_notes.html#version-3-3 "Link to this heading")
+[17:17:53]          10. ## Version 3.2[#](https://matplotlib.org/stable/users/release_notes.html#version-3-2 "Link to this heading")
+[17:17:53]          ... and 12 more headers
+[17:17:53]    ✅ Content length: 22622 characters
+[17:17:53]    📝 Title: Release_Notes.Html
+[17:17:53]    🎯 Processing document for indexing...
+[17:17:53]    🔄 Splitting document into chunks...
+[17:17:53]    📦 Created 22 chunks.
+[17:17:53]    📤 Adding 22 chunks to Pinecone...
+[17:17:55]    ✅ Successfully added chunks to Pinecone.
+[17:17:55]    🎉 Page 26 fully processed and indexed!
+[17:17:55] 
+[17:17:55] 🔄 [27] CRAWLING: https://matplotlib.org/stable/users/explain/quick_start.html
+[17:17:55]    📊 Depth: 1
+[17:17:55]    ✅ Success: True
+[17:17:55]    📝 Has markdown: True
+[17:17:55]    📏 Markdown length: 84888
+[17:17:55]    🔗 Discovered 2 links
+[17:17:55]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:55]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/users/explain/quick_start.html#main-content) Ba...
+[17:17:55]    📊 Content analysis:
+[17:17:55]       📏 Total lines: 534
+[17:17:55]       📏 Non-empty lines: 453
+[17:17:55]       🎯 Headers found: 33
+[17:17:55]       📍 Header levels: [3, 4, 4, 6, 1]
+[17:17:55]       📋 Headers:
+[17:17:55]          1. # Quick start guide[#](https://matplotlib.org/stable/users/explain/quick_start.html#quick-start-guide "Link to this heading")
+[17:17:55]          2. ## A simple example[#](https://matplotlib.org/stable/users/explain/quick_start.html#a-simple-example "Link to this heading")
+[17:17:55]          3. ## Parts of a Figure[#](https://matplotlib.org/stable/users/explain/quick_start.html#parts-of-a-figure "Link to this heading")
+[17:17:55]          4. ###  [`Figure`](https://matplotlib.org/stable/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure "matplotlib.figure.Figure")[#](https://matplotlib.org/stable/users/explain/quick_start.html#figure "Link to this heading")
+[17:17:55]          5. # a figure with one Axes on the left, and two on the right:
+[17:17:55]          6. ###  [`Axes`](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.html#matplotlib.axes.Axes "matplotlib.axes.Axes")[#](https://matplotlib.org/stable/users/explain/quick_start.html#axes "Link to this heading")
+[17:17:55]          7. ###  [`Axis`](https://matplotlib.org/stable/api/axis_api.html#matplotlib.axis.Axis "matplotlib.axis.Axis")[#](https://matplotlib.org/stable/users/explain/quick_start.html#axis "Link to this heading")
+[17:17:55]          8. ###  [`Artist`](https://matplotlib.org/stable/api/artist_api.html#matplotlib.artist.Artist "matplotlib.artist.Artist")[#](https://matplotlib.org/stable/users/explain/quick_start.html#artist "Link to this heading")
+[17:17:55]          9. ## Types of inputs to plotting functions[#](https://matplotlib.org/stable/users/explain/quick_start.html#types-of-inputs-to-plotting-functions "Link to this heading")
+[17:17:55]          10. ## Coding styles[#](https://matplotlib.org/stable/users/explain/quick_start.html#coding-styles "Link to this heading")
+[17:17:55]          ... and 23 more headers
+[17:17:55]    ✅ Content length: 84888 characters
+[17:17:55]    📝 Title: Quick_Start.Html
+[17:17:55]    🎯 Processing document for indexing...
+[17:17:55]    🔄 Splitting document into chunks...
+[17:17:55]    📦 Created 29 chunks.
+[17:17:55]    📤 Adding 29 chunks to Pinecone...
+[17:17:58]    ✅ Successfully added chunks to Pinecone.
+[17:17:58]    🎉 Page 27 fully processed and indexed!
+[17:17:58] 
+[17:17:58] 🔄 [28] CRAWLING: https://matplotlib.org/stable/project/license.html
+[17:17:58]    📊 Depth: 1
+[17:17:58]    ✅ Success: True
+[17:17:58]    📝 Has markdown: True
+[17:17:58]    📏 Markdown length: 7103
+[17:17:58]    🔗 Discovered 2 links
+[17:17:58]    🔗 Link discovery error: slice(None, 3, None)
+[17:17:58]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/project/license.html#main-content) Back to top...
+[17:17:58]    📊 Content analysis:
+[17:17:58]       📏 Total lines: 101
+[17:17:58]       📏 Non-empty lines: 83
+[17:17:58]       🎯 Headers found: 6
+[17:17:58]       📍 Header levels: [3, 4, 4, 4, 5]
+[17:17:58]       📋 Headers:
+[17:17:58]          1. # License[#](https://matplotlib.org/stable/project/license.html#license "Link to this heading")
+[17:17:58]          2. ## Copyright policy[#](https://matplotlib.org/stable/project/license.html#copyright-policy "Link to this heading")
+[17:17:58]          3. ## License agreement[#](https://matplotlib.org/stable/project/license.html#license-agreement "Link to this heading")
+[17:17:58]          4. ## Bundled software[#](https://matplotlib.org/stable/project/license.html#bundled-software "Link to this heading")
+[17:17:58]          5. ### Colormaps and themes[#](https://matplotlib.org/stable/project/license.html#colormaps-and-themes "Link to this heading")
+[17:17:58]          6. ### Fonts[#](https://matplotlib.org/stable/project/license.html#fonts "Link to this heading")
+[17:17:58]    ✅ Content length: 7103 characters
+[17:17:58]    📝 Title: License.Html
+[17:17:58]    🎯 Processing document for indexing...
+[17:17:58]    🔄 Splitting document into chunks...
+[17:17:58]    📦 Created 7 chunks.
+[17:17:58]    📤 Adding 7 chunks to Pinecone...
+[17:18:04]    ✅ Successfully added chunks to Pinecone.
+[17:18:04]    🎉 Page 28 fully processed and indexed!
+[17:18:04] 
+[17:18:04] 🔄 [29] CRAWLING: https://matplotlib.org/stable/project/credits.html
+[17:18:04]    📊 Depth: 1
+[17:18:04]    ✅ Success: True
+[17:18:04]    📝 Has markdown: True
+[17:18:04]    📏 Markdown length: 19447
+[17:18:04]    🔗 Discovered 2 links
+[17:18:04]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:04]    📄 Preview: [Skip to main content](https://matplotlib.org/stable/project/credits.html#main-content) Back to top...
+[17:18:04]    📊 Content analysis:
+[17:18:04]       📏 Total lines: 68
+[17:18:04]       📏 Non-empty lines: 52
+[17:18:04]       🎯 Headers found: 1
+[17:18:04]       📍 Header levels: [3]
+[17:18:04]       📋 Headers:
+[17:18:04]          1. # Credits[#](https://matplotlib.org/stable/project/credits.html#credits "Link to this heading")
+[17:18:04]    ✅ Content length: 19447 characters
+[17:18:04]    📝 Title: Credits.Html
+[17:18:04]    🎯 Processing document for indexing...
+[17:18:04]    🔄 Splitting document into chunks...
+[17:18:04]    📦 Created 2 chunks.
+[17:18:04]    📤 Adding 2 chunks to Pinecone...
+[17:18:06]    ✅ Successfully added chunks to Pinecone.
+[17:18:06]    🎉 Page 29 fully processed and indexed!
+[17:18:06] 
+[17:18:06] 🔄 [30] CRAWLING: https://discourse.matplotlib.org/c/3rdparty/18
+[17:18:06]    📊 Depth: 2
+[17:18:06]    ✅ Success: True
+[17:18:06]    📝 Has markdown: True
+[17:18:06]    📏 Markdown length: 1
+[17:18:06]    🔗 Discovered 2 links
+[17:18:06]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:06]    📄 Preview: ...
+[17:18:06]    📊 Content analysis:
+[17:18:06]       📏 Total lines: 2
+[17:18:06]       📏 Non-empty lines: 0
+[17:18:06]       🎯 Headers found: 0
+[17:18:06]    ⏭️  Skipping short content page (only 0 words)
+[17:18:10] 🔄 [31] CRAWLING: https://discourse.matplotlib.org/c/development/contribute/8
+[17:18:10]    📊 Depth: 2
+[17:18:10]    ✅ Success: True
+[17:18:10]    📝 Has markdown: True
+[17:18:10]    📏 Markdown length: 10171
+[17:18:10]    🔗 Discovered 2 links
+[17:18:10]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:10]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/development/contribute/8#main-container) [...
+[17:18:10]    📊 Content analysis:
+[17:18:10]       📏 Total lines: 36
+[17:18:10]       📏 Non-empty lines: 29
+[17:18:10]       🎯 Headers found: 1
+[17:18:10]       📍 Header levels: [3]
+[17:18:10]       📋 Headers:
+[17:18:10]          1. ###  There are no more Contributing topics.
+[17:18:10]    ⏭️  Skipping gallery/index page (too many links: 143 links, 355 words)
+[17:18:10] 🔄 [32] CRAWLING: https://discourse.matplotlib.org/c/development/matplotlib-devel/5
+[17:18:10]    📊 Depth: 2
+[17:18:10]    ✅ Success: True
+[17:18:10]    📝 Has markdown: True
+[17:18:10]    📏 Markdown length: 18120
+[17:18:10]    🔗 Discovered 2 links
+[17:18:10]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:10]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/development/matplotlib-devel/5#main-contai...
+[17:18:10]    📊 Content analysis:
+[17:18:10]       📏 Total lines: 50
+[17:18:10]       📏 Non-empty lines: 43
+[17:18:10]       🎯 Headers found: 0
+[17:18:10]    ⏭️  Skipping gallery/index page (too many links: 222 links, 623 words)
+[17:18:10] 🔄 [33] CRAWLING: https://discourse.matplotlib.org/c/showcase/7
+[17:18:10]    📊 Depth: 2
+[17:18:10]    ✅ Success: True
+[17:18:10]    📝 Has markdown: True
+[17:18:10]    📏 Markdown length: 19451
+[17:18:10]    🔗 Discovered 2 links
+[17:18:10]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:10]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/showcase/7#main-container) [ ![Matplotlib]...
+[17:18:10]    📊 Content analysis:
+[17:18:10]       📏 Total lines: 50
+[17:18:10]       📏 Non-empty lines: 43
+[17:18:10]       🎯 Headers found: 0
+[17:18:10]    ⏭️  Skipping gallery/index page (too many links: 253 links, 694 words)
+[17:18:10] 🔄 [34] CRAWLING: https://discourse.matplotlib.org/categories
+[17:18:10]    📊 Depth: 2
+[17:18:10]    ✅ Success: True
+[17:18:10]    📝 Has markdown: True
+[17:18:10]    📏 Markdown length: 14434
+[17:18:10]    🔗 Discovered 2 links
+[17:18:10]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:10]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/categories#main-container) [ ![Matplotlib](h...
+[17:18:10]    📊 Content analysis:
+[17:18:10]       📏 Total lines: 152
+[17:18:10]       📏 Non-empty lines: 145
+[17:18:10]       🎯 Headers found: 7
+[17:18:10]       📍 Header levels: [3, 3, 3, 3, 3]
+[17:18:10]       📋 Headers:
+[17:18:10]          1. ###  [ Announcements ](https://discourse.matplotlib.org/c/announce/14)
+[17:18:10]          2. ###  [ Showcase ](https://discourse.matplotlib.org/c/showcase/7)
+[17:18:10]          3. ###  [ Community ](https://discourse.matplotlib.org/c/community/11)
+[17:18:10]          4. ###  [ Development ](https://discourse.matplotlib.org/c/development/12)
+[17:18:10]          5. ###  [ 3rd Party Packages ](https://discourse.matplotlib.org/c/3rdparty/18)
+[17:18:10]          6. ###  [ Site Feedback ](https://discourse.matplotlib.org/c/site-feedback/2)
+[17:18:10]          7. ###  [ Uncategorized ](https://discourse.matplotlib.org/c/uncategorized/1)
+[17:18:10]    ✅ Content length: 14434 characters
+[17:18:10]    📝 Title: Categories
+[17:18:10]    🎯 Processing document for indexing...
+[17:18:10]    🔄 Splitting document into chunks...
+[17:18:10]    📦 Created 8 chunks.
+[17:18:10]    📤 Adding 8 chunks to Pinecone...
+[17:18:12]    ✅ Successfully added chunks to Pinecone.
+[17:18:12]    🎉 Page 34 fully processed and indexed!
+[17:18:12] 
+[17:18:12] 🔄 [35] CRAWLING: https://discourse.matplotlib.org/c/site-feedback/2
+[17:18:12]    📊 Depth: 2
+[17:18:12]    ✅ Success: True
+[17:18:12]    📝 Has markdown: True
+[17:18:12]    📏 Markdown length: 8665
+[17:18:12]    🔗 Discovered 2 links
+[17:18:12]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:12]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/site-feedback/2#main-container) [ ![Matplo...
+[17:18:12]    📊 Content analysis:
+[17:18:12]       📏 Total lines: 36
+[17:18:12]       📏 Non-empty lines: 29
+[17:18:12]       🎯 Headers found: 1
+[17:18:12]       📍 Header levels: [3]
+[17:18:12]       📋 Headers:
+[17:18:12]          1. ###  There are no more Site Feedback topics.
+[17:18:12]    ⏭️  Skipping gallery/index page (too many links: 119 links, 329 words)
+[17:18:12] 🔄 [36] CRAWLING: https://discourse.matplotlib.org/latest
+[17:18:12]    📊 Depth: 2
+[17:18:12]    ✅ Success: True
+[17:18:12]    📝 Has markdown: True
+[17:18:12]    📏 Markdown length: 22530
+[17:18:12]    🔗 Discovered 2 links
+[17:18:12]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:12]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/latest#main-container) [ ![Matplotlib](https...
+[17:18:12]    📊 Content analysis:
+[17:18:12]       📏 Total lines: 50
+[17:18:12]       📏 Non-empty lines: 43
+[17:18:12]       🎯 Headers found: 0
+[17:18:12]    ⏭️  Skipping gallery/index page (too many links: 319 links, 693 words)
+[17:18:12] 🔄 [37] CRAWLING: https://discourse.matplotlib.org/t/cant-make-a-line-non-transparent/23589/1
+[17:18:12]    📊 Depth: 2
+[17:18:12]    ✅ Success: True
+[17:18:12]    📝 Has markdown: True
+[17:18:12]    📏 Markdown length: 8717
+[17:18:12]    🔗 Discovered 2 links
+[17:18:12]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:12]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/t/cant-make-a-line-non-transparent/23589/1#m...
+[17:18:12]    📊 Content analysis:
+[17:18:12]       📏 Total lines: 132
+[17:18:12]       📏 Non-empty lines: 104
+[17:18:12]       🎯 Headers found: 11
+[17:18:12]       📍 Header levels: [1, 1, 1, 1, 1]
+[17:18:12]       📋 Headers:
+[17:18:12]          1. #  [ Can’t make a line non-transparent ](https://discourse.matplotlib.org/t/cant-make-a-line-non-transparent/23589)
+[17:18:12]          2. # Create a list of line segments
+[17:18:12]          3. # Create a LineCollection object with multicolored line segments
+[17:18:12]          4. # (C is a list of colors that looks like [(0.1, 0.2, 0.3), (0.2, 0.3, 0.4)...]
+[17:18:12]          5. # Create a figure and axis object
+[17:18:12]          6. # Set the background color of the plot
+[17:18:12]          7. # Add the LineCollection to the axis
+[17:18:12]          8. # Set the axis limits
+[17:18:12]          9. # Show the plot
+[17:18:12]          10. ###  New & Unread Topics
+[17:18:12]          ... and 1 more headers
+[17:18:12]    ✅ Content length: 8717 characters
+[17:18:12]    📝 Title: 1
+[17:18:12]    🎯 Processing document for indexing...
+[17:18:12]    🔄 Splitting document into chunks...
+[17:18:12]    📦 Created 4 chunks.
+[17:18:12]    📤 Adding 4 chunks to Pinecone...
+[17:18:13]    ✅ Successfully added chunks to Pinecone.
+[17:18:13]    🎉 Page 37 fully processed and indexed!
+[17:18:13] 
+[17:18:13] 🔄 [38] CRAWLING: https://discourse.matplotlib.org/c/uncategorized/1
+[17:18:13]    📊 Depth: 2
+[17:18:13]    ✅ Success: True
+[17:18:13]    📝 Has markdown: True
+[17:18:13]    📏 Markdown length: 20421
+[17:18:13]    🔗 Discovered 2 links
+[17:18:13]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:13]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/uncategorized/1#main-container) [ ![Matplo...
+[17:18:13]    📊 Content analysis:
+[17:18:13]       📏 Total lines: 49
+[17:18:13]       📏 Non-empty lines: 42
+[17:18:13]       🎯 Headers found: 0
+[17:18:13]    ⏭️  Skipping gallery/index page (too many links: 265 links, 698 words)
+[17:18:13] 🔄 [39] CRAWLING: https://discourse.matplotlib.org/c/3rdparty/cartopy/19
+[17:18:13]    📊 Depth: 2
+[17:18:13]    ✅ Success: True
+[17:18:13]    📝 Has markdown: True
+[17:18:13]    📏 Markdown length: 3023
+[17:18:13]    🔗 Discovered 2 links
+[17:18:13]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:13]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/3rdparty/cartopy/19#main-container) [ ![Ma...
+[17:18:13]    📊 Content analysis:
+[17:18:13]       📏 Total lines: 27
+[17:18:13]       📏 Non-empty lines: 20
+[17:18:13]       🎯 Headers found: 1
+[17:18:13]       📍 Header levels: [3]
+[17:18:13]       📋 Headers:
+[17:18:13]          1. ###  There are no more cartopy topics.
+[17:18:13]    ✅ Content length: 3023 characters
+[17:18:13]    📝 Title: 19
+[17:18:13]    🎯 Processing document for indexing...
+[17:18:13]    🔄 Splitting document into chunks...
+[17:18:13]    📦 Created 2 chunks.
+[17:18:13]    📤 Adding 2 chunks to Pinecone...
+[17:18:15]    ✅ Successfully added chunks to Pinecone.
+[17:18:15]    🎉 Page 39 fully processed and indexed!
+[17:18:15] 
+[17:18:15] 🔄 [40] CRAWLING: https://discourse.matplotlib.org/c/showcase/tutorial/15
+[17:18:15]    📊 Depth: 2
+[17:18:15]    ✅ Success: True
+[17:18:15]    📝 Has markdown: True
+[17:18:15]    📏 Markdown length: 1155
+[17:18:15]    🔗 Discovered 2 links
+[17:18:15]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:15]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/showcase/tutorial/15#main-container) [ ![M...
+[17:18:15]    📊 Content analysis:
+[17:18:15]       📏 Total lines: 23
+[17:18:15]       📏 Non-empty lines: 16
+[17:18:15]       🎯 Headers found: 1
+[17:18:15]       📍 Header levels: [3]
+[17:18:15]       📋 Headers:
+[17:18:15]          1. ###  There are no more Tutorial topics.
+[17:18:15]    ⏭️  Skipping short content page (only 76 words)
+[17:18:15] 🔄 [41] CRAWLING: https://discourse.matplotlib.org/c/development/12
+[17:18:15]    📊 Depth: 2
+[17:18:15]    ✅ Success: True
+[17:18:15]    📝 Has markdown: True
+[17:18:15]    📏 Markdown length: 1
+[17:18:15]    🔗 Discovered 2 links
+[17:18:15]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:15]    📄 Preview: ...
+[17:18:15]    📊 Content analysis:
+[17:18:15]       📏 Total lines: 2
+[17:18:15]       📏 Non-empty lines: 0
+[17:18:15]       🎯 Headers found: 0
+[17:18:15]    ⏭️  Skipping short content page (only 0 words)
+[17:18:15] 🔄 [42] CRAWLING: https://discourse.matplotlib.org/t/cant-make-a-line-non-transparent/23589
+[17:18:15]    📊 Depth: 2
+[17:18:15]    ✅ Success: True
+[17:18:15]    📝 Has markdown: True
+[17:18:15]    📏 Markdown length: 8741
+[17:18:15]    🔗 Discovered 2 links
+[17:18:15]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:15]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/t/cant-make-a-line-non-transparent/23589#mai...
+[17:18:15]    📊 Content analysis:
+[17:18:15]       📏 Total lines: 132
+[17:18:15]       📏 Non-empty lines: 104
+[17:18:15]       🎯 Headers found: 11
+[17:18:15]       📍 Header levels: [1, 1, 1, 1, 1]
+[17:18:15]       📋 Headers:
+[17:18:15]          1. #  [ Can’t make a line non-transparent ](https://discourse.matplotlib.org/t/cant-make-a-line-non-transparent/23589)
+[17:18:15]          2. # Create a list of line segments
+[17:18:15]          3. # Create a LineCollection object with multicolored line segments
+[17:18:15]          4. # (C is a list of colors that looks like [(0.1, 0.2, 0.3), (0.2, 0.3, 0.4)...]
+[17:18:15]          5. # Create a figure and axis object
+[17:18:15]          6. # Set the background color of the plot
+[17:18:15]          7. # Add the LineCollection to the axis
+[17:18:15]          8. # Set the axis limits
+[17:18:15]          9. # Show the plot
+[17:18:15]          10. ###  New & Unread Topics
+[17:18:15]          ... and 1 more headers
+[17:18:15]    ✅ Content length: 8741 characters
+[17:18:15]    📝 Title: 23589
+[17:18:15]    🎯 Processing document for indexing...
+[17:18:15]    🔄 Splitting document into chunks...
+[17:18:15]    📦 Created 4 chunks.
+[17:18:15]    📤 Adding 4 chunks to Pinecone...
+[17:18:16]    ✅ Successfully added chunks to Pinecone.
+[17:18:16]    🎉 Page 42 fully processed and indexed!
+[17:18:16] 
+[17:18:16] 🔄 [43] CRAWLING: https://discourse.matplotlib.org/c/announce/14
+[17:18:16]    📊 Depth: 2
+[17:18:16]    ✅ Success: True
+[17:18:16]    📝 Has markdown: True
+[17:18:16]    📏 Markdown length: 1
+[17:18:16]    🔗 Discovered 2 links
+[17:18:16]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:16]    📄 Preview: ...
+[17:18:16]    📊 Content analysis:
+[17:18:16]       📏 Total lines: 2
+[17:18:16]       📏 Non-empty lines: 0
+[17:18:16]       🎯 Headers found: 0
+[17:18:16]    ⏭️  Skipping short content page (only 0 words)
+[17:18:16] 🔄 [44] CRAWLING: https://discourse.matplotlib.org/c/community/install/13
+[17:18:16]    📊 Depth: 2
+[17:18:16]    ✅ Success: True
+[17:18:16]    📝 Has markdown: True
+[17:18:16]    📏 Markdown length: 20624
+[17:18:16]    🔗 Discovered 2 links
+[17:18:16]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:16]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/community/install/13#main-container) [ ![M...
+[17:18:16]    📊 Content analysis:
+[17:18:16]       📏 Total lines: 50
+[17:18:16]       📏 Non-empty lines: 43
+[17:18:16]       🎯 Headers found: 0
+[17:18:16]    ⏭️  Skipping gallery/index page (too many links: 289 links, 631 words)
+[17:18:16] 🔄 [45] CRAWLING: https://discourse.matplotlib.org/c/announce/matplotlib-announce/10
+[17:18:16]    📊 Depth: 2
+[17:18:16]    ✅ Success: True
+[17:18:16]    📝 Has markdown: True
+[17:18:16]    📏 Markdown length: 16178
+[17:18:16]    🔗 Discovered 2 links
+[17:18:16]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:16]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/announce/matplotlib-announce/10#main-conta...
+[17:18:16]    📊 Content analysis:
+[17:18:16]       📏 Total lines: 50
+[17:18:16]       📏 Non-empty lines: 43
+[17:18:16]       🎯 Headers found: 0
+[17:18:16]    ⏭️  Skipping gallery/index page (too many links: 242 links, 533 words)
+[17:18:16] 🔄 [46] CRAWLING: https://discourse.matplotlib.org/t/code-does-not-work-on-new-version-of-matplotlib/25916
+[17:18:16]    📊 Depth: 2
+[17:18:16]    ✅ Success: True
+[17:18:16]    📝 Has markdown: True
+[17:18:16]    📏 Markdown length: 9019
+[17:18:16]    🔗 Discovered 2 links
+[17:18:16]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:16]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/t/code-does-not-work-on-new-version-of-matpl...
+[17:18:16]    📊 Content analysis:
+[17:18:16]       📏 Total lines: 142
+[17:18:16]       📏 Non-empty lines: 113
+[17:18:16]       🎯 Headers found: 4
+[17:18:16]       📍 Header levels: [1, 4, 3, 3]
+[17:18:16]       📋 Headers:
+[17:18:16]          1. #  [ Code does not work on new version of Matplotlib ](https://discourse.matplotlib.org/t/code-does-not-work-on-new-version-of-matplotlib/25916)
+[17:18:16]          2. ### [API Changes for 3.8.0 — Matplotlib 3.10.3 documentation](https://matplotlib.org/3.9.3/api/prev_api_changes/api_changes_3.8.0.html#contourset-is-now-a-single-collection)
+[17:18:16]          3. ###  New & Unread Topics
+[17:18:16]          4. ###  Want to read more? Browse other topics in [Community](https://discourse.matplotlib.org/c/community/11) or [view latest topics](https://discourse.matplotlib.org/latest).
+[17:18:16]    ✅ Content length: 9019 characters
+[17:18:16]    📝 Title: 25916
+[17:18:16]    🎯 Processing document for indexing...
+[17:18:16]    🔄 Splitting document into chunks...
+[17:18:16]    📦 Created 5 chunks.
+[17:18:16]    📤 Adding 5 chunks to Pinecone...
+[17:18:22]    ✅ Successfully added chunks to Pinecone.
+[17:18:22]    🎉 Page 46 fully processed and indexed!
+[17:18:22] 
+[17:18:22] 🔄 [47] CRAWLING: https://discourse.matplotlib.org/t/collections-attribute-deprecation-in-version-3-8/24164
+[17:18:22]    📊 Depth: 2
+[17:18:22]    ✅ Success: True
+[17:18:22]    📝 Has markdown: True
+[17:18:22]    📏 Markdown length: 22021
+[17:18:22]    🔗 Discovered 2 links
+[17:18:22]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:22]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/t/collections-attribute-deprecation-in-versi...
+[17:18:22]    📊 Content analysis:
+[17:18:22]       📏 Total lines: 363
+[17:18:22]       📏 Non-empty lines: 294
+[17:18:22]       🎯 Headers found: 14
+[17:18:22]       📍 Header levels: [1, 1, 1, 1, 1]
+[17:18:22]       📋 Headers:
+[17:18:22]          1. #  [ Collections attribute deprecation in version > 3.8 ](https://discourse.matplotlib.org/t/collections-attribute-deprecation-in-version-3-8/24164)
+[17:18:22]          2. # Generate contours
+[17:18:22]          3. # Check if get_paths() is not available (old version)
+[17:18:22]          4. # Old version: iterate over each layer
+[17:18:22]          5. # get each path in the layer (level)
+[17:18:22]          6. # Process path
+[17:18:22]          7. # New version: iterate over get_paths() and generate paths from segments
+[17:18:22]          8. # In new version get_paths() returns one joined path per level that has to be split up first to get each contour
+[17:18:22]          9. # Process path
+[17:18:22]          10. # Check the number of vertices
+[17:18:22]          ... and 4 more headers
+[17:18:22]    ✅ Content length: 22021 characters
+[17:18:22]    📝 Title: 24164
+[17:18:22]    🎯 Processing document for indexing...
+[17:18:22]    🔄 Splitting document into chunks...
+[17:18:22]    📦 Created 4 chunks.
+[17:18:22]    📤 Adding 4 chunks to Pinecone...
+[17:18:24]    ✅ Successfully added chunks to Pinecone.
+[17:18:24]    🎉 Page 47 fully processed and indexed!
+[17:18:24] 
+[17:18:24] 🔄 [48] CRAWLING: https://discourse.matplotlib.org/c/community/matplotlib-users/6
+[17:18:24]    📊 Depth: 2
+[17:18:24]    ✅ Success: True
+[17:18:24]    📝 Has markdown: True
+[17:18:24]    📏 Markdown length: 18244
+[17:18:24]    🔗 Discovered 2 links
+[17:18:24]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:24]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/c/community/matplotlib-users/6#main-containe...
+[17:18:24]    📊 Content analysis:
+[17:18:24]       📏 Total lines: 50
+[17:18:24]       📏 Non-empty lines: 43
+[17:18:24]       🎯 Headers found: 0
+[17:18:24]    ⏭️  Skipping gallery/index page (too many links: 264 links, 589 words)
+[17:18:24] 🔄 [49] CRAWLING: https://discourse.matplotlib.org/t/code-does-not-work-on-new-version-of-matplotlib/25916/1
+[17:18:24]    📊 Depth: 2
+[17:18:24]    ✅ Success: True
+[17:18:24]    📝 Has markdown: True
+[17:18:24]    📏 Markdown length: 8927
+[17:18:24]    🔗 Discovered 2 links
+[17:18:24]    🔗 Link discovery error: slice(None, 3, None)
+[17:18:24]    📄 Preview: [Skip to main content](https://discourse.matplotlib.org/t/code-does-not-work-on-new-version-of-matpl...
+[17:18:24]    📊 Content analysis:
+[17:18:24]       📏 Total lines: 142
+[17:18:24]       📏 Non-empty lines: 113
+[17:18:24]       🎯 Headers found: 4
+[17:18:24]       📍 Header levels: [1, 4, 3, 3]
+[17:18:24]       📋 Headers:
+[17:18:24]          1. #  [ Code does not work on new version of Matplotlib ](https://discourse.matplotlib.org/t/code-does-not-work-on-new-version-of-matplotlib/25916)
+[17:18:24]          2. ### [API Changes for 3.8.0 — Matplotlib 3.10.3 documentation](https://matplotlib.org/3.9.3/api/prev_api_changes/api_changes_3.8.0.html#contourset-is-now-a-single-collection)
+[17:18:24]          3. ###  New & Unread Topics
+[17:18:24]          4. ###  Want to read more? Browse other topics in [Community](https://discourse.matplotlib.org/c/community/11) or [view latest topics](https://discourse.matplotlib.org/latest).
+[17:18:24]    ✅ Content length: 8927 characters
+[17:18:24]    📝 Title: 1
+[17:18:24]    🎯 Processing document for indexing...
+[17:18:24]    🔄 Splitting document into chunks...
+[17:18:24]    📦 Created 5 chunks.
+[17:18:24]    📤 Adding 5 chunks to Pinecone...
+[18:11:40] ❌ Crawl iteration error: Connection error.
+[18:11:40] 📊 COMPREHENSIVE Crawling Summary:
+[18:11:40]    ✅ Successfully processed and indexed: 21 pages
+[18:11:40]    🔗 Total URLs visited: 49
+[18:11:40]    ❌ Failed to process: 0 pages
+[18:11:40]    📦 Total chunks created and indexed: 228
+[18:11:40] 

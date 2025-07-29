@@ -1,0 +1,9 @@
+[16:55:17] 🚀 Starting COMPREHENSIVE crawl for library 'pandas' at https://pandas.pydata.org/docs/...
+[16:55:17] 📋 Configuration:
+[16:55:17]    - Target: ALL pages on the domain
+[16:55:17]    - Using crawl4ai deep crawling for maximum coverage
+[16:55:17]    - BFS strategy for systematic, level-by-level crawling
+[16:55:17]    - MAXIMUM coverage with no artificial limits
+[16:55:17]    - Progressive indexing enabled
+[16:55:17] 
+[16:55:17] 🌐 Base domain: pandas.pydata.org
